@@ -1,0 +1,8 @@
+car_sales = {
+    "Maruti Suzuki": 120,
+    "Hyundai": 95,
+    "Tata Motors": 80,
+    "Mahindra": 60,
+    "Honda": 40,
+    "Toyota": 55
+}
