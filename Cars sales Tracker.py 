@@ -7,8 +7,12 @@ car_sales = {
     "Toyota": 55
 }
 
-def total_sales(): return sum(car_sales.values())
+def total_sales(): 
+  return sum(car_sales.values())
 
-def sales_by_model(model): return car_sales.get (model, "Model not found")
+def sales_by_model(model): 
+  return car_sales.get (model, "Model not found")
 
-def best_selling_car(): return max(car_sales, key=car_sales.get)
+def best_selling_car():
+  return max(car_sales, 
+key=car_sales.get)
