@@ -16,3 +16,13 @@ def sales_by_model(model):
 def best_selling_car():
   return max(car_sales, 
 key=car_sales.get)
+
+# Menu-driven program
+while True:
+    print("\nCar Sales Tracker")
+    print("1. View Total Sales")
+    print("2. View Sales by Car Model")
+    print("3. View Best-Selling Car")
+    print("4. Exit")
+
+    choice = input("Enter your choice (1-4): ")
