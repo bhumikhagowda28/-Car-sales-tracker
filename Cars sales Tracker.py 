@@ -26,3 +26,16 @@ while True:
     print("4. Exit")
 
     choice = input("Enter your choice (1-4): ")
+
+    if choice == "1":
+        print("Total Sales:", total_sales())
+    elif choice == "2":
+        model = input("Enter car model name: ")
+        print("Sales for", model, ":", sales_by_model(model))
+    elif choice == "3":
+        print("Best-Selling Car:", best_selling_car())
+    elif choice == "4":
+        print("Exiting program...")
+        break
+    else:
+        print("Invalid choice. Please try again.")
